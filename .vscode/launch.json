@@ -1,0 +1,23 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "al",
+            "request": "launch",
+            "name": "localhost",
+            "environmentType": "OnPrem",
+            "server": "http://localhost:8080/BC260",            
+            "serverInstance": "BC260",
+            "port": 7049,
+            "authentication": "Windows",            
+            "startupObjectId": 9325,            
+            "startupObjectType": "Page",
+            "tenant": "default",
+            "breakOnError": true,
+            "launchBrowser": true,
+            "enableLongRunningSqlStatements": true,
+            "enableSqlInformationDebugger": true,  
+            //"schemaUpdateMode": "Recreate"
+        }
+    ]
+}
